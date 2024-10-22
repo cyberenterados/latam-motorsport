@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+    <!-- cdn font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- titulo -->
+    <title>Latam-MotorSport LM</title>
+    <!-- icono favicon -->
+    <!--<link rel="icon" type="image/x-icon" href="icon/code-solid.svg">-->
+    <link rel="icon" href="./icon/casco.ico">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Latam-MotorSport" />
+    <meta property="og:type" content="Latam-MotorSport" />
+    <meta property="og:url" content="https://alejanpublic.github.io/Portafolio-Beta/" />
+    <meta property="og:image" content="img/img-grsph.jpg" />
+    <meta property="og:description" content="Latam-MotorSport"/>
+    <!--  -->
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <div id="inicio-v">
+        <div class="video-fondo">
+            <video class="video-grande" autoplay muted loop>
+                <source src="/vid/banner-1.mp4" type="video/mp4"> <!-- Asegúrate de que la ruta sea correcta -->
+                Tu navegador no soporta el video.
+            </video>
+            <video class="video-pequena" autoplay muted loop>
+                <source src="/vid/banner-2.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </div>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <!--<h1>LM</h1>-->
+                    <img src="./img/logo-sin-fondo.png" alt="LM LOGO" class="lm-logo">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionando" onclick="seleccionar(this)">Inicio</a></li>
+                            <!--<li><a href="#sobremi">Biografía</a></li>-->
+                            <li><a href="#servicios">Calendario</a></li>
+                            <li><a href="#portafolio">Carreras YouTube</a></li>
+                            <!--<li><a href="#contacto">CONTACTO</a></li>-->
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icon-nav" onclick="responsiveMenu()" class="blanco">
+                        <a><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                    <div class="redes">
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <!--<div class="redes">
+                        <a href="https://www.linkedin.com/in/alejanpublic-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>-->
+                </div>                
+            </header>
+            <div class="presentacion"></div>
+        </div>
+    </section>    
+    <!-- Seccion Sobre MI  -->
+    <!--<section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/img1.jpeg" alt="Manuel">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Biografía</p>
+            <a href="/cv-pdf/CV-ManuelGarcia-web.pdf" target="_blank  ">Descargar CV</a>
+        </div>   
+    </section>-->
+    <!-- SECCION SERVICIOS calendario-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Calendario</h3>        
+        <!-- Lunes -->
+        <div class="fila">
+            <div class="servicio">
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Lunes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Links</a></li>
+                </ul>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
+            </div>
+            <!-- aca divide servicios Linux-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-linux"></i></span>
+                <h4>Linux</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bash</li>
+                    <li>Shell</li>
+                    <li>Distros</li>
+                </ul>
+                <p>Distros: Ubuntu, Debian, Red Hat, Kali Linux, Conceptos de Linux On-Premise,
+                    Despliegue de Linux en la Nube, Gestión de archivos y directorios,
+                    Configuración de la shell bash.</p>
+            </div>
+            <!-- aca divide servicios REdes-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-network-wired"></i></span>
+                <h4>Networking</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>TCP/IP</li>
+                    <li>DNS</li>
+                    <li>Modelo OSI</li>
+                </ul>
+                <p>Configuracion de redes, Manejo de herramientas para resolver 
+                    problema de conectividad.</p>
+            </div>
+        </div>
+        <!-- aca divide la fila  Python-->
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                  <!--  <li>Web</li>
+                    <li>Graphic</li>
+                    <li>seo</li> -->
+                </ul>
+                <p>Fundamentos de la programación en Python, Usos de una terminal o línea de comandos,
+                    Tipos de datos y operaciones, Manejo de bucles repetitivos, Sentencias Condicionales,
+                    Desarrollar aplicaciones de consola y escritorio, Implementación de funciones,
+                    Manejo de librerías.</p>
+            </div>
+            <!-- aca divide servicios SQL-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>SQL</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Xampp</li>
+                    <li>Workbench</li>
+                    <li>HeidiSql</li>
+                </ul>
+                <p>Fundamentos de las Bases de Datos, Instalación y utilización de MySQL, 
+                    Lenguaje SQL, Estructuras de consulta, Operadores, cláusulas y sentencias,
+                    Manipulación de datos, Registros y agrupamientos,                    
+                    Construcción de un modelo de Base de Datos, Tópicos avanzados, 
+                    Integridad referencial.</p>
+            </div>
+            <!-- aca divide servicios  front-end-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Front-End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Fundamentos de HTML, Utilización y aplicación de CSS,                 
+                    Propiedades, atributos y tipografías,                    
+                    Utilización de vínculos e imágenes,                    
+                    Desarrollo de formularios básicos,                    
+                    Tablas, frames y videos,                    
+                    Publicación de una página web,                    
+                    Protocolo de transferencia de archivos.</p> 
+            </div>
+        </div>
+        <!-- termina fila  -->
+    </section>
+
+    <!-- SECCION SKILL HABILIDADES -->
+    <!--<div class="contenedor-skills" id="skills"></div>-->
+    <!-- SECCION PROTAFOLIO -->
+
+    <section id="portafolio">        
+        <h2 class="videos">Carreras</h2>
+            <div class="scroll-buttons">
+                <!--<button onclick="scrollLeft()">&#10094; Anterior</button>-->
+                <!--<button onclick="scrollRight()">Siguiente &#10095;</button>-->
+            </div>
+            <div class="video-section" id="videoSection">
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5SjWpXMij2M?si=bYjTqhMaGTIl5_kM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EMb_68QVpIQ?si=fftOhYcleHvA0shs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2V3LbcCgoE8?si=w5cikrqA6EULSynU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tbGmQ9D8wZE?si=J_GVBpgbvxL_6G6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ywAO794LlZ0?si=PNC2S8UFh_i4AfO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WY5JW-jYFNs?si=mVWj0TwyhPPJVNcK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1ZPpW-GSN3s?si=7360o0djMldkuur9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MY-LOy8LOLs?si=4wOaBszztdJSyON8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MY-LOy8LOLs?si=h4m80axGUG334UO1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sd10KRdxz2w?si=dsWneLPf0KkvCmjX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZebDH62IOGQ?si=YIS8x90VcJl4k7JG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ze1Nft7CXew?si=nFtgwNlw2zH2I7Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j6gS_7UvM58?si=nD84s5QxgRLoT5Wr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISivhDCsACg?si=ZswKATK2ISra4KWz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+                <!-- Agrega más tarjetas de video aquí -->
+
+        <br>
+        <hr>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <!--<section id="contacto">        
+    </section>-->
+
+    <!-- SECCION FOOTER -->
+    <footer class="footer">
+        <p>Todos los derechos reservados - 2024</p>
+        <p>LM Latam</p>
+        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>    
+    </footer>
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
