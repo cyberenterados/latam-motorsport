@@ -10,15 +10,16 @@
     <!-- estilos -->
     <link rel="stylesheet" href="css/style.css">
     <!-- titulo -->
-    <title>alejanpublic - Portafolio</title>
+    <title>Latam-MotorSport LM</title>
     <!-- icono favicon -->
-    <link rel="icon" type="image/x-icon" href="icon/code-solid.svg">
+    <!--<link rel="icon" type="image/x-icon" href="icon/code-solid.svg">-->
+    <link rel="icon" href="./icon/casco.ico">
     <!-- Open Graph data -->
-    <meta property="og:title" content="alejanpublic-dev" />
-    <meta property="og:type" content="Porta" />
+    <meta property="og:title" content="Latam-MotorSport" />
+    <meta property="og:type" content="Latam-MotorSport" />
     <meta property="og:url" content="https://alejanpublic.github.io/Portafolio-Beta/" />
     <meta property="og:image" content="img/img-grsph.jpg" />
-    <meta property="og:description" content="Portafolio - alejanpublic" />
+    <meta property="og:description" content="Latam-MotorSport"/>
     <!--  -->
 </head>
 <body>
@@ -38,13 +39,14 @@
         <div class="contenido">
             <header>
                 <div class="contenido-header">
-                    <h1>MG</h1>
+                    <!--<h1>LM</h1>-->
+                    <img src="./img/logo-sin-fondo.png" alt="LM LOGO" class="lm-logo">
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionando" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi">Biografía</a></li>
-                            <li><a href="#servicios">Soporte Técnico</a></li>
-                            <li><a href="#portafolio">Proyectos Frond-End</a></li>
+                            <li><a href="#inicio" class="seleccionando" onclick="seleccionar(this)">Inicio</a></li>
+                            <!--<li><a href="#sobremi">Biografía</a></li>-->
+                            <li><a href="#servicios">Proximas carreras</a></li>
+                            <li><a href="#portafolio">Carreras YouTube</a></li>
                             <!--<li><a href="#contacto">CONTACTO</a></li>-->
                         </ul>
                     </nav>
@@ -53,8 +55,12 @@
                     <div id="icon-nav" onclick="responsiveMenu()" class="blanco">
                         <a><i class="fa-solid fa-bars"></i></a>
                     </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/alejanpublic-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@latammotorsport/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/latam.motorsport/profilecard/?igsh=NzQ0Z3R6bzJsdXBr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitch.tv/latamfm" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="https://www.tiktok.com/@latam.motorsport?_t=8qltHzFyv3t&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>    
                     </div>
 
                     <!-- Iconos de las redes sociales -->
@@ -67,119 +73,96 @@
         </div>
     </section>    
     <!-- Seccion Sobre MI  -->
-    <section id="sobremi">
+    <!--<section id="sobremi">
         <div class="contenedor-foto">
             <img src="img/img1.jpeg" alt="Manuel">
         </div>
         <div class="sobremi">
             <p class="titulo-seccion">Biografía</p>
-            <h2>  <span>   Manuel Garcia</span></h2>
-            <h3>Soporte Técnico | Help Desk</h3>
-
-            <p>Desde muy joven, mi fascinación por el mundo de la computación ha sido el motor que impulsa mi curiosidad y creatividad. La posibilidad de explorar, entender y manipular el universo digital siempre ha despertado en mí una chispa de emoción; cada línea de código escrita es un paso hacia la creación de algo nuevo y significativo.</p>
-
-            <p>En el futuro, veo mi trayectoria en la computación como un viaje continuo de aprendizaje y crecimiento. Estoy ansioso por explorar nuevas tecnologías, enfrentar desafíos profesionales. Cuento con conocimientos en Python, Linux y Windows, así como en el manejo de comandos en entornos diversos. Mi experiencia con máquinas virtuales, redes y SQL, me proporciona una base sólida para abordar los desafíos laborales y poder seguir estudiando hasta lograr convertirme en un experto en Seguridad Informática.</p>
-
-            <p>En resumen, mi pasión por la computación no es solo una elección académica, sino un estilo de vida que abrazo con entusiasmo. Cada línea de código que escribo, cada problema que resuelvo y cada nueva tecnología que aprendo son hitos en mi viaje</p>
-
             <a href="/cv-pdf/CV-ManuelGarcia-web.pdf" target="_blank  ">Descargar CV</a>
-            
-        </div>        
-    </section>
-    <!-- SECCION conocimientos -->
+        </div>   
+    </section>-->
+    <!-- SECCION SERVICIOS calendario-->
     <section id="servicios">
-        <h3 class="titulo-seccion">Soporte Técnico</h3>        
-        <!-- Servicios Windows -->
+        <h3 class="titulo-seccion">Proximas Carreras</h3>        
+        <!-- Lunes -->
         <div class="fila">
             <div class="servicio">
-                <span class="icono"><i class="fa-brands fa-windows"></i></span>
-                <h4>Windows</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Lunes</h4>
                 <hr>
-                <ul class="servicios-tag">
-                    <li>Office</li>
-                    <li>PowerShell</li>
-                    <li>Defender</li>
-                </ul>
-                <p>Tecnologías de servicios en la nube y Microsoft Azure, 
-                operar con los distintos software, plataformas e infraestructuras.</p>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
-            <!-- aca divide servicios Linux-->
+            <!-- Martes-->
             <div class="servicio">
-                <span class="icono"><i class="fa-brands fa-linux"></i></span>
-                <h4>Linux</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Martes</h4>
                 <hr>
-                <ul class="servicios-tag">
-                    <li>Bash</li>
-                    <li>Shell</li>
-                    <li>Distros</li>
-                </ul>
-                <p>Distros: Ubuntu, Debian, Red Hat, Kali Linux, Conceptos de Linux On-Premise,
-                    Despliegue de Linux en la Nube, Gestión de archivos y directorios,
-                    Configuración de la shell bash.</p>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
-            <!-- aca divide servicios REdes-->
+            <!-- Miercoles-->
             <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-network-wired"></i></span>
-                <h4>Networking</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Miercoles</h4>
                 <hr>
-                <ul class="servicios-tag">
-                    <li>TCP/IP</li>
-                    <li>DNS</li>
-                    <li>Modelo OSI</li>
-                </ul>
-                <p>Configuracion de redes, Manejo de herramientas para resolver 
-                    problema de conectividad.</p>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
-        </div>
-        <!-- aca divide la fila  Python-->
-        <div class="fila">
+            <!-- Jueves-->
             <div class="servicio">
-                <span class="icono"><i class="fa-brands fa-python"></i></span>
-                <h4>Python</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Jueves</h4>
                 <hr>
-                <ul class="servicios-tag">
-                  <!--  <li>Web</li>
-                    <li>Graphic</li>
-                    <li>seo</li> -->
-                </ul>
-                <p>Fundamentos de la programación en Python, Usos de una terminal o línea de comandos,
-                    Tipos de datos y operaciones, Manejo de bucles repetitivos, Sentencias Condicionales,
-                    Desarrollar aplicaciones de consola y escritorio, Implementación de funciones,
-                    Manejo de librerías.</p>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
-            <!-- aca divide servicios SQL-->
+            <!-- Viernes-->
             <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-database"></i></span>
-                <h4>SQL</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>viernes</h4>
                 <hr>
-                <ul class="servicios-tag">
-                    <li>Xampp</li>
-                    <li>Workbench</li>
-                    <li>HeidiSql</li>
-                </ul>
-                <p>Fundamentos de las Bases de Datos, Instalación y utilización de MySQL, 
-                    Lenguaje SQL, Estructuras de consulta, Operadores, cláusulas y sentencias,
-                    Manipulación de datos, Registros y agrupamientos,                    
-                    Construcción de un modelo de Base de Datos, Tópicos avanzados, 
-                    Integridad referencial.</p>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
-            <!-- aca divide servicios  front-end-->
+            <!-- fin de semana -->
+            <!-- Sabado -->
             <div class="servicio">
-                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
-                <h4>Front-End</h4>
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Sabado</h4>
                 <hr>
-                <ul class="servicios-tag">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <p>Fundamentos de HTML, Utilización y aplicación de CSS,                 
-                    Propiedades, atributos y tipografías,                    
-                    Utilización de vínculos e imágenes,                    
-                    Desarrollo de formularios básicos,                    
-                    Tablas, frames y videos,                    
-                    Publicación de una página web,                    
-                    Protocolo de transferencia de archivos.</p> 
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
+            </div>
+            <!-- Domingo -->
+            <div class="servicio">
+                <img src="/icon/casco.ico" alt="Lunes" class="icono">
+                <h4>Domingo</h4>
+                <hr>
+                <div class="servicios-tag">
+                    <p><a href="#">Formulario</a></p>
+                    <p><a href="#">reglamento.pdf</a></p>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem placeat illo, iste totam facilis error!</p>
             </div>
         </div>
         <!-- termina fila  -->
@@ -189,112 +172,58 @@
     <!--<div class="contenedor-skills" id="skills"></div>-->
     <!-- SECCION PROTAFOLIO -->
 
-    <section id="portafolio">
-        <h3 class="titulo-seccion">Proyectos Front-End</h3>
-        <div class="fila">
-            <!--proyecto 0-->
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://cyberenterados.github.io/CyberEnterados-News/" target="__blank"><img src="img/cyberenteradosnews.png" alt="GitHub"></a>
-                <div class="info">
-                    <h4>CyberEnterados News</h4>
-                    <p>Front-End</p>
+    <section id="portafolio">        
+        <h2 class="videos">Carreras Youtube</h2>
+            <div class="scroll-buttons">
+                <!--<button onclick="scrollLeft()">&#10094; Anterior</button>-->
+                <!--<button onclick="scrollRight()">Siguiente &#10095;</button>-->
+            </div>
+            <div class="video-section" id="videoSection">
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HoA1pmNtIhA?si=xyz2lQ_6zWxKKJnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3u21L41V4aU?si=K82cDSwf5u9OA582" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TL9BIXLyaUU?si=JEIRQnHxj0q1Lvrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x6zM8C_fnec?si=dNR-WuYFjuQQwZIy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t4IhQgeuWqw?si=kOsnkkVoN2ppM5Dx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xc8FjFkj2ro?si=0ne2o2JATIqN_u7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HkvzlPqWSxg?si=XUAQ-78vsWVKhNnv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MFbC9idiiJU?si=uTIMOswgQXa5asdG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MFbC9idiiJU?si=uTIMOswgQXa5asdG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-card">
+                    <h3></h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UMxkx3l8uCE?si=8ju4NmuS4TMHEmcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-            <!-- proyecto 1 -->
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://alejanpublic-dev.github.io/TechNews-Proyect/" target="__blank"><img src="img/Diapositiva1.JPG" alt="GitHub"></a>
-                <div class="info">
-                    <h4>TechNews-Proyect - WebSiteNews</h4>
-                    <p>Front-End</p>
-                </div>
-            </div>
-            <!-- proyecto 2 -->
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://alejanpublic-dev.github.io/mi-protafolio/" target="__blank"><img src="img/Diapositiva2.JPG" alt="GitHub"></a>
-                <div class="info">
-                    <h4>WebSite-Primer-Portafolio</h4>
-                    <p>Front-End</p>
-                </div>
-            </div>
-            <!-- proyecto 3 -->
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://alejanpublic-dev.github.io/Portafolio-2.0/" target="__blank"><img src="img/Diapositiva3.JPG" alt="GitHub"></a>
-                <div class="info">
-                    <h4>WebSite-Segundo-Portafolio</h4>
-                    <p>Front-End</p>
-                </div>
-            </div>        
-            <!-- proyecto 4 -->        
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://alejanpublic-dev.github.io/WebSite-SoporteTec/" target="__blank"><img src="img/img-grsph.jpg" alt="GitHub"></a>
-                <div class="info">
-                    <h4>WebSite-UltimoPortafolio</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>   
-            <!-- proyecto 5 -->            
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <a href="https://alejanpublic-dev.github.io/EurekaCosmotech-News/" target="__blank"><img src="img/Eureka.png" alt="GitHub"></a>
-                <div class="info">
-                    <h4>WeSite- Noticia-Proyecto-Personal</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>
-            <!-- proyecto 6 -->
-            <!--
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto6.jpg" alt="">
-                <div class="info">
-                    <h4>Descripcion del Proyecto</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>
-        </div>
-        -->
-            <!-- proyecto 7 -->
-            <!--
-        <div class="fila">
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto7.jpg" alt="">
-                <div class="info">
-                    <h4>Descripcion del Proyecto</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>
-            -->
-            <!-- proyecto 8 -->
-            <!--
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto8.jpg" alt="">
-                <div class="info">
-                    <h4>Descripcion del Proyecto</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>
-        -->
+                <!-- Agrega más tarjetas de video aquí -->
 
-            <!-- proyecto 9  -->
-            <!--
-            <div class="proyecto">
-                <div class="overlay"></div>
-                <img src="img/proyecto9.jpg" alt="">
-                <div class="info">
-                    <h4>Descripcion del Proyecto</h4>
-                    <p>Diseño Web</p>
-                </div>
-            </div>
-        </div>
-        -->    
-        <!-- termina proyectos  -->        
+        <br>
+        <hr>
     </section>
 
     <!-- SECCION CONTACTO -->
@@ -302,13 +231,14 @@
     </section>-->
 
     <!-- SECCION FOOTER -->
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados - 2024</p>
-        <p>Edicion Beta 2.2</p>
-        <div class="redes">
-            <a href="https://www.linkedin.com/in/alejanpublic-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/alejanpublic-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
+        <p>LM Latam</p>
+        <a href="https://www.youtube.com/@latammotorsport/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/latam.motorsport/profilecard/?igsh=NzQ0Z3R6bzJsdXBr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.twitch.tv/latamfm" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+        <a href="https://www.tiktok.com/@latam.motorsport?_t=8qltHzFyv3t&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>    
     </footer>
     <!-- js -->
     <script src="js/main.js"></script>
