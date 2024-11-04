@@ -409,6 +409,18 @@ html{
     .video-card iframe {
         height: 150px;
     }
+
+    #inicio-v{            
+        /*background-color: #BDCDD6;*/
+        background: url("https://pbs.twimg.com/media/GbkF1cnWMAAjsWX?format=jpg&name=900x900");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;        
+    }
+
+
+
 }
 @media (max-width: 480px) {
     .video-card {
@@ -435,6 +447,21 @@ footer a{
     margin: 5px;
     font-size: 26px;
 
+}
+
+/*INICIO*/
+
+@media (max-width: 768px) {
+    .smart-img{
+        height: 150px;
+        width: auto;
+    }
+}
+@media (max-width: 480px) {
+    .smart-img {
+        min-width: 100px;
+    }
+    
 }
 
 /* seccion responsive */
@@ -477,17 +504,13 @@ footer a{
         display: block;
     }
     
-    #sobremi{
-        padding: 50px;
-        display: block;
-        
-    }
+    
     #sobremi .contenedor-foto{
         max-width: 130px;
         margin: 5px;
     }
     #sobremi .contenedor-foto img{
-        padding: 8px;
+        padding: 3px;
 
     }
     #sobremi .sobremi .titulo-seccion {
@@ -511,7 +534,7 @@ footer a{
     }
 
     #servcios {
-        padding: 50px 15px;
+        padding: 5px 15px;
     }
     #servicios .fila{
         display: block;
