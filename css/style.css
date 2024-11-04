@@ -285,14 +285,14 @@ html{
 #servicios .fila .servicio a{
     justify-content: space-between;
     margin-bottom: 20px;
-    color: #c26904;
+    color: #eec79b;
     text-decoration:dashed;
     display: inline;
 }
 
 #servicios .fila .servicio p{
     text-decoration: dashed;
-    color:#c57000;
+    color:#130b01;
     font-size: 16px;
     line-height: 22px;
     margin-top: 2%;
@@ -303,7 +303,7 @@ html{
 /** seccion skill habilidades blandas*/
 
 .contenedor-skills{
-    background: linear-gradient(#6764a4, rgba(33,16,16,.8)), url("https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background: linear-gradient(#e4ad6f, rgba(33,16,16,.8)), url("https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +412,7 @@ html{
 
     #inicio-v{            
         /*background-color: #BDCDD6;*/
-        background: url("https://pbs.twimg.com/media/GbkF1cnWMAAjsWX?format=jpg&name=900x900");
+        background: url("https://pbs.twimg.com/media/GbkTE1QXUAIO0w4?format=jpg&name=large");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
