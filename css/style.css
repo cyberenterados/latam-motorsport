@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';    
+    font-family: 'Montserrat'; 
+       
 }
 
 
@@ -24,6 +25,7 @@ html{
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    
 }
 
 .video-fondo {
@@ -248,7 +250,7 @@ html{
 #servicios .fila .servicio{
     max-width: 550px;
     /*background-color: #f7a066;*/
-    background: linear-gradient(#9e7d51, rgba(0,0,0,.2)), url("https://images.unsplash.com/photo-1527581849771-416a9d62308e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: linear-gradient(#9e7d51, rgba(0,0,0,.1)), url("https://pbs.twimg.com/media/Gbjzp_HWsAAjVKE?format=png&name=small");
     padding: 30px;
     margin: 0 5px;
     border-radius: 5px;
@@ -282,17 +284,19 @@ html{
 
 #servicios .fila .servicio a{
     justify-content: space-between;
-    margin-bottom: 10px;
-    color: #f8e3c6;
+    margin-bottom: 20px;
+    color: #c26904;
     text-decoration:dashed;
     display: inline;
 }
 
 #servicios .fila .servicio p{
     text-decoration: dashed;
-    color:#050505;
-    font-size: 14px;
+    color:#c57000;
+    font-size: 16px;
     line-height: 22px;
+    margin-top: 2%;
+    font-weight: bold;
 }
 
 /* CODIGOS COMENTADOS EN HTML */
@@ -514,6 +518,10 @@ footer a{
     }
     #servicios .fila .servicio{
         margin: 10px auto;
+    }
+
+    #servicios .banner-tag{
+        height: 450px;
     }
     .contenedor-skills{
         padding: 50px 20px;
